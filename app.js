@@ -8,6 +8,5 @@ handle["favicon.ico"] = requestHandlers.favicon;
 handle["product"] = requestHandlers.product;
 handle["products"]  = requestHandlers.products;
 
-var apiKey = process.argv[2];
 var port = process.env.PORT || 3000;
-server.start(router.route, handle, port, apiKey);
+server.start(router.route, handle, port);
