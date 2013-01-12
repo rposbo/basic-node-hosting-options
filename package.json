@@ -4,6 +4,6 @@
   "description": "the node.js files used in my blog post about a basic node api being hosted in various places (github, azure, heroku)",
   "version": "0.0.1",
   "engines": {
-    "node": "0.8.16"
+    "node": "0.8.14"
   }
 }
